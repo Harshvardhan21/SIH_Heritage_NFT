@@ -39,7 +39,7 @@ const Hero = () => {
           <div className={style.cardContainer}>
             <img className = {style.height = '50%'}
                           className="rounded-t-lg"
-              src="https://lh3.googleusercontent.com/pw/AM-JKLWTz-KjFXLLSohHPvVDUUu3fydjKHTgyEYAxJd-y1bloLg0CXvfrcBxQNx6kTXyZYxS-O-GN2oXVVW5wdj5_GOThanMkFw23VwXRH32FpBWyMiVtBvoC_VBgEdTFiu_OQawU8oI0RecWXCsnvk-_Tya=w550-h933-no"
+              src="https://lh3.googleusercontent.com/pw/AM-JKLWTz-KjFXLLSohHPvVDUUu3fydjKHTgyEYAxJd-y1bloLg0CXvfrcBxQNx6kTXyZYxS-O-GN2oXVVW5wdj5_GOThanMkFw23VwXRH32FpBWyMiVtBvoC_VBgEdTFiu_OQawU8oI0RecWXCsnvk-_Tya=w500-h933-no"
               alt=""
             />
             <div className={style.infoContainer}>
