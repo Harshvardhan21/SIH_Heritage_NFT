@@ -23,7 +23,7 @@ const Header = () => {
     <div className={style.wrapper}>
       <Link href="/">
         <div className={style.logoContainer}>
-          <Image src={Logo} height={40} width={40} />
+          <Image src={Logo} height={50} width={80} />
           <div className={style.logoText}>Inherit India</div>
         </div>
       </Link>
