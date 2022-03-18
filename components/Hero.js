@@ -1,5 +1,7 @@
 import React from 'react'
 
+import heroImage from '../assets/heroImage.jpg'
+
 const style = {
   wrapper: `relative`,
   container: `before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s250')] before:bg-cover before:bg-center before:opacity-30 before:blur`,
@@ -35,9 +37,9 @@ const Hero = () => {
             </div>
           </div>
           <div className={style.cardContainer}>
-            <img
-              className="rounded-t-lg"
-              src="https://www.resizepixel.com/Image/y8sxyf5ink/Preview/navdeep-panwar-_Qtgj2nXqyY-unspl.jpg?v=9e9db9a0-2e93-4813-bf32-4b2263a623c9"
+            <img className = {style.height = '50%'}
+                          className="rounded-t-lg"
+              src="https://lh3.googleusercontent.com/pw/AM-JKLWTz-KjFXLLSohHPvVDUUu3fydjKHTgyEYAxJd-y1bloLg0CXvfrcBxQNx6kTXyZYxS-O-GN2oXVVW5wdj5_GOThanMkFw23VwXRH32FpBWyMiVtBvoC_VBgEdTFiu_OQawU8oI0RecWXCsnvk-_Tya=w550-h933-no"
               alt=""
             />
             <div className={style.infoContainer}>
