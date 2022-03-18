@@ -126,7 +126,7 @@ const Collection = () => {
             src={
               collection?.imageUrl
                 ? collection.imageUrl
-                : 'https://cdn.sanity.io/images/fvhp6kk1/production/f41e8a3351af251cd85622ae2c00131cfac169b6-1000x1000.webp'
+                : 'https://cloudflare-ipfs.com/ipfs/QmT9v8cBJAnA4i2pHiLvBsNAoJqURLw9D3H4DJVVnkbcfq/0.jpg'
             }
             alt="profile image"
           />
