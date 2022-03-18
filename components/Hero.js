@@ -24,10 +24,10 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect, and sell extraordinary NFTs
+              Discover, collect, and sell extraordinary Indian Heritage NFTs
             </div>
             <div className={style.description}>
-              OpenSea is the world&apos;s first and largest NFT marketplace
+              Inherit-Indian is the world&apos;s largest Indo-NFT marketplace
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Explore</button>
@@ -37,7 +37,7 @@ const Hero = () => {
           <div className={style.cardContainer}>
             <img
               className="rounded-t-lg"
-              src="https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s550"
+              src="https://www.resizepixel.com/Image/y8sxyf5ink/Preview/navdeep-panwar-_Qtgj2nXqyY-unspl.jpg?v=9e9db9a0-2e93-4813-bf32-4b2263a623c9"
               alt=""
             />
             <div className={style.infoContainer}>
@@ -47,12 +47,12 @@ const Hero = () => {
                 alt=""
               />
               <div className={style.author}>
-                <div className={style.name}>Jolly</div>
+                <div className={style.name}>Smriti</div>
                 <a
                   className="text-[#1868b7]"
-                  href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/2324922113504035910649522729980423429926362207300810036887725141691069366277"
+                  href="/"
                 >
-                  hola-kanola
+                  Thakur
                 </a>
               </div>
             </div>

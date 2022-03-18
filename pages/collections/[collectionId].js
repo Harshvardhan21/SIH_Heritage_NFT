@@ -46,9 +46,7 @@ const Collection = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/5vE71jmwgarCAA-os7nP_wQEoOUXT8Pm'
-    )
+      provider.getSigner()    )
     return sdk.getNFTModule('0x45c0a70Af196e3645f198734b9FFe1eA6bF94272')
   }, [provider])
 
@@ -66,9 +64,7 @@ const Collection = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/5vE71jmwgarCAA-os7nP_wQEoOUXT8Pm'
-    )
+      provider.getSigner()    )
     return sdk.getMarketplaceModule(
       '0xC406E844B594D40bC3dEb6c31356da42adF21556'
     )
@@ -118,7 +114,7 @@ const Collection = () => {
           src={
             collection?.bannerImageUrl
               ? collection.bannerImageUrl
-              : 'https://via.placeholder.com/200'
+              : 'https://cdn.sanity.io/images/fvhp6kk1/production/0076924b5ab5041f35a4566ba39639f3d6d2cd7b-960x600.jpg'
           }
           alt="banner"
         />
@@ -130,7 +126,7 @@ const Collection = () => {
             src={
               collection?.imageUrl
                 ? collection.imageUrl
-                : 'https://via.placeholder.com/200'
+                : 'https://cdn.sanity.io/images/fvhp6kk1/production/f41e8a3351af251cd85622ae2c00131cfac169b6-1000x1000.webp'
             }
             alt="profile image"
           />
